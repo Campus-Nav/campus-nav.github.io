@@ -1,0 +1,37 @@
+:root {
+    --background-color: #ffffff;
+
+    --card-background: pink;
+}
+
+.deck {
+    display: block;
+}
+
+.card {
+    display: inline-block;
+    background-color: var(--card-background);
+    width: 20%;
+    height: 400px;
+}
+.card:hover {
+    transform: rotate3d(0, 1, 0, 180deg);
+    transition: transform 1s;
+}
+
+.card-front {
+    display: block;
+}
+
+.card-front-title, .card-back-title {
+    display: block;
+    font-size: 14pt;
+}
+
+.card-back {
+    display: none;
+}
+
+.card-back-description {
+    display: block;
+}
