@@ -1,10 +1,12 @@
 Overall look and feel statement:
-
+  The website provides a modern up-and-going vibe with mild focus on an academic feel. This is accomplished with (insert colours) to give a genuine trustable feel while providing eye-popping contrast so that viewers are more likely to see our benefits. We use images that include modern archetecture and urban buildings with touches of greenery to give off an urban exploration vibe that appeals to both nature enthusiasts and brutalist fans.
 Colors:
 
 Layout:
 
 Icons:
+  The website incorporates both custom-made designs and designs taken from the material design icons library by Pictogrammers.
+    material design icons: https://pictogrammers.com/library/mdi
 
 Typography:
 
