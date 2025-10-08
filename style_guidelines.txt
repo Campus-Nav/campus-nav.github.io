@@ -1,6 +1,15 @@
 Overall look and feel statement:
   The website provides a modern up-and-going vibe with mild focus on an academic feel. This is accomplished with (insert colours) to give a genuine trustable feel while providing eye-popping contrast so that viewers are more likely to see our benefits. We use images that include modern archetecture and urban buildings with touches of greenery to give off an urban exploration vibe that appeals to both nature enthusiasts and brutalist fans.
+
 Colors:
+  For Campus Nav, our choice of colors represent effortlessness, ease and simplicity. The pallete is inspired by calming tones of blue with simple shades of black and light gray. 
+
+  Color Swatch:
+  #001778
+  #0267ff
+  #839bff
+  #eaeeff
+  #000000
 
 Layout:
 
