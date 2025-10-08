@@ -22,6 +22,7 @@ Typography:
 Links:
 
 Buttons:
+    We use simple and clean rectangular buttons with rounded corners because we do not want the website to be overstimulating with over-designed shaders and other obfuscations. 
 
 Accessibility:
 
