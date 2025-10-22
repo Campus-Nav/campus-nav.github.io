@@ -1,5 +1,12 @@
 :root {
     --background-color: #ffffff;
 
+    /* Base site colours, from style_guidelines.txt */
+    --color-1: #001778;
+    --color-2: #0267ff;
+    --color-3: #839bff;
+    --color-4: #eaeeff;
+    --color-5: #000000;
+
     --card-background: pink;
 }
