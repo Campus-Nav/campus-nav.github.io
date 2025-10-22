@@ -18,3 +18,8 @@ function init() {
 document.body.onload = function(){
     init();
 };
+
+function toggleMenu() {
+    let menubar = document.querySelector(".menu-content");
+    menubar.classList.toggle("visible");
+}

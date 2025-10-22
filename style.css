@@ -29,6 +29,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    user-select: none;
 }
 
 .site-logo {
@@ -64,6 +65,12 @@ html, body {
     cursor: pointer;
     user-select: none;
     font-size: 1.2em;
+    /* Hidden by default */
+    display: none;
+}
+
+.menu-content.visible {
+    display: unset;
 }
 
 .menu-content li {
