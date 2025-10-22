@@ -9,4 +9,67 @@
     --color-5: #000000;
 
     --card-background: pink;
+    --navigation-background: var(--color-3);
+    --navigation-hover-background: var(--color-4)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+#navbar {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--navigation-background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.site-logo {
+    height: 100%;
+    padding: 6px 12px;
+}
+
+.menu {
+    float: right;
+    position: sticky;
+    height: 100%;
+}
+
+.menu-button {
+    height: 100%;
+    padding: 6px 12px;
+}
+
+.menu-button svg {
+    height: 100%;
+    cursor: pointer;
+}
+
+.menu-content {
+    list-style-type: none;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 190px;
+    background-color: var(--navigation-background);
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.2em;
+}
+
+.menu-content li {
+    padding: 1em 1em;
+}
+
+.menu-content li:hover, .menu-button svg:hover {
+    background-color: var(--navigation-hover-background);
 }
