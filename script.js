@@ -23,7 +23,3 @@ function toggleMenu() {
     let menubar = document.querySelector(".menu-content");
     menubar.classList.toggle("visible");
 }
-
-function menuPage(url) {
-    location.href = url
-}
