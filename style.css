@@ -8,6 +8,19 @@
     --color-4: #eaeeff;
     --color-5: #000000;
 
+    --bg: #0b0f1a;
+    --panel: #111827;
+    --panel-2: #0f172a;
+    --text: #e5e7eb;
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+    --gold: #fbbf24;
+    --green: #22c55e;
+    --rose: #fb7185;
+    --card-radius: 1.25rem;
+    --shadow: 0 10px 30px rgba(0, 0, 0, .45);
+    --outline: 1px solid rgba(255, 255, 255, .08);
+
     --card-background: pink;
     --navigation-background: var(--color-3);
     --navigation-hover-background: var(--color-4)
@@ -19,64 +32,50 @@
 
 html, body {
     margin: 0;
+    height: 100%;
 }
 
-#navbar {
-    display: inline-block;
-    width: 100%;
-    background-color: var(--navigation-background);
+body {
+    margin: 0;
+    background: radial-gradient(1200px 600px at 20% 0%, #0a1224 0%, #070a13 60%, #05070d 100%), var(--bg);
+    color: var(--text);
+    font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+header {
+    max-width: 1100px;
+    margin: 48px auto 24px;
+    padding: 0 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 70px;
-    user-select: none;
+    justify-content: space-between;
+    gap: 16px;
 }
 
-.site-logo {
-    height: 100%;
-    padding: 6px 12px;
+.brand {
+    display: flex; align-items: center; gap: 12px;
 }
 
-.menu {
-    float: right;
-    position: sticky;
-    height: 100%;
+.logo {
+    width: 42px; height: 42px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), #8b5cf6);
+    display: grid; place-items: center; color: #00131a; font-weight: 800;
+    box-shadow: var(--shadow);
 }
 
-.menu-button {
-    height: 100%;
-    padding: 6px 12px;
+.brand h1 {
+    font-size: 1.25rem; margin: 0; letter-spacing: .2px;
 }
 
-.menu-button svg {
-    height: 100%;
-    cursor: pointer;
+nav a {
+    color: var(--muted); text-decoration: none; font-weight: 600;
+    padding: 8px 12px; border-radius: 10px;
 }
 
-.menu-content {
-    list-style-type: none;
-    margin-block-start: 0;
-    padding-inline-start: 0;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 190px;
-    background-color: var(--navigation-background);
-    cursor: pointer;
-    user-select: none;
-    font-size: 1.2em;
-    /* Hidden by default */
-    display: none;
-}
-
-.menu-content.visible {
-    display: unset;
-}
-
-.menu-content li {
-    padding: 1em 1em;
-}
-
-.menu-content li:hover, .menu-button svg:hover {
-    background-color: var(--navigation-hover-background);
+footer {
+    max-width: 1100px;
+    padding: 24px 20px 60px;
+    margin: 0 auto;
+    color: var(--muted);
+    font-size: .9rem;
 }

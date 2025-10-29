@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Product Features</title>
+
+    <!-- Import global styles -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import local styles -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Import global script -->
+    <script src="/script.js" defer></script>
+
+    <!-- Import features page script -->
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <navbar id="navbar">
+        <!-- Dynamic content from navigation.html is inserted here! -->
+    </navbar>
+
+    <section class="page-content">
+        <p class="lead">Pick the plan that fits. You can switch or cancel anytime.</p>
+
+        <main class="grid">
+            <section class="card free">
+                <header><span class="plan">Free Trial</span><span class="badge">FREE</span></header>
+                <div class="price">$0 <span class="per">/ 7 days</span></div>
+                <ul class="features">
+                    <li><span class="dot"><svg>
+                                <path d="M20 6 9 17l-5-5" />
+                            </svg></span> Access to core campus map</li>
+                    <li><span class="dot"><svg>
+                                <circle cx="12" cy="12" r="9" />
+                            </svg></span> Tunnel routes (limited)</li>
+                    <li><span class="dot"><svg>
+                                <path d="M4 12h16" />
+                            </svg></span> Ads visible</li>
+                </ul>
+                <button class="cta" data-plan="freetrial">Start Free Trial</button>
+            </section>
+
+            <section class="card explorer">
+                <header><span class="plan">Explorer</span><span class="badge">ICON</span></header>
+                <div class="price">$1.99 <span class="per">/ mo</span></div>
+                <ul class="features">
+                    <li><span class="dot"><svg>
+                                <path d="M20 6 9 17l-5-5" />
+                            </svg></span> Full tunnel access</li>
+                    <li><span class="dot"><svg>
+                                <path d="M12 5v14M5 12h14" />
+                            </svg></span> Save favorite routes</li>
+                    <li><span class="dot"><svg>
+                                <path d="M3 6h18M3 12h18M3 18h18" />
+                            </svg></span> Light ads</li>
+                </ul>
+                <button class="cta" data-plan="explorer">Choose Explorer</button>
+            </section>
+
+            <section class="card insider">
+                <header><span class="plan">Insider</span><span class="badge">ICON</span></header>
+                <div class="price">$2.99 <span class="per">/ mo</span></div>
+                <ul class="features">
+                    <li><span class="dot"><svg>
+                                <path d="M20 6 9 17l-5-5" />
+                            </svg></span> Access to live data</li>
+                    <li><span class="dot"><svg>
+                                <path d="M12 5v14M5 12h14" />
+                            </svg></span> Offline maps</li>
+                    <li><span class="dot"><svg>
+                                <path d="M4 12h16" />
+                            </svg></span> No ads</li>
+                </ul>
+                <button class="cta" data-plan="insider">Choose Insider</button>
+            </section>
+
+            <section class="card premium">
+                <header><span class="plan">Premium Nav</span><span class="badge">ICON</span></header>
+                <div class="price">$5 <span class="per">/ mo</span></div>
+                <ul class="features">
+                    <li><span class="dot"><svg>
+                                <path d="M20 6 9 17l-5-5" />
+                            </svg></span> Everything in Insider + Explorer</li>
+                    <li><span class="dot"><svg>
+                                <path d="M12 5v14M5 12h14" />
+                            </svg></span> Priority re-routing</li>
+                    <li><span class="dot"><svg>
+                                <path d="M3 6h18M7 10h10M9 14h6" />
+                            </svg></span> Gold themes</li>
+                    <li><span class="dot"><svg>
+                                <path d="M4 4h16v16H4z" />
+                            </svg></span> Analytics & export</li>
+                </ul>
+                <button class="cta" data-plan="premium">Get Premium</button>
+            </section>
+        </main>
+    </section>
+
+    <footer id="footer">
+        <!-- Dynamic content from footer.html is inserted here! -->
+    </footer>
+</body>
+
+</html>
