@@ -24,6 +24,7 @@ h2 {
   display: flex;
   flex-direction: column; /* put elements on top of each other */
   align-items: center;    /* center them horizontally */
+  border-radius: 10%;
 
 
 }
@@ -36,6 +37,7 @@ h2 {
   display: flex;
   flex-direction: column; /* put elements on top of each other */
   align-items: center;    /* center them horizontally */
+  border-radius: 10%;
 }
 
 .teamboxes {
