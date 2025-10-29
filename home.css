@@ -1,10 +1,10 @@
 /* hello world */
-h1 {
-    background-color: blue;
+h1.home-title {
+    color: purple;
 }
 
 p {
-    margin-top: 60%;
+    margin-top: 25%;
     font-size: 25pt;
     color: salmon;
 }
