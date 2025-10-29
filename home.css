@@ -1,6 +1,8 @@
 /* hello world */
 h1.home-title {
-    color: purple;
+    font-size: 50pt;
+    color: rgb(0, 179, 211);
+    
 }
 
 p {
