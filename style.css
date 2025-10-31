@@ -21,7 +21,7 @@
     --shadow: 0 10px 30px rgba(0, 0, 0, .45);
     --outline: 1px solid rgba(255, 255, 255, .08);
 
-    --card-background: pink;
+    --card-background: var(--panel-2);
     --navigation-background: var(--color-3);
     --navigation-hover-background: var(--color-4)
 }
@@ -32,7 +32,7 @@
 
 html, body {
     margin: 0;
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
@@ -78,4 +78,5 @@ footer {
     margin: 0 auto;
     color: var(--muted);
     font-size: .9rem;
+    text-align: center;
 }
