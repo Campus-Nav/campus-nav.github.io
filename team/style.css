@@ -116,6 +116,7 @@ h2 {
     overflow-y: auto;
     border: 1px solid blue;
     color: white;
+    align-items: center;
 }
 
 .close-btn {
@@ -164,8 +165,9 @@ h2 {
 }
 
 .member-links {
-    display: flex;
-    gap: 15px;
+    gap: 10px;
+    margin-left: 110px;
+    
 }
 
 .member-links a {
