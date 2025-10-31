@@ -1,5 +1,5 @@
 body {
-    background-color: cyan;
+    background-color: #0b0f1a;
 }
 h1, p {
     text-align: center;
@@ -12,7 +12,7 @@ h2 {
 }
 
 .Team {
-    background-color: lightgreen;
+    background-color: #0b0f1a;
     margin-top: 40px;
 }
 
