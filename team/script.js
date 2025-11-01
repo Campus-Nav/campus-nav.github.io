@@ -2,15 +2,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const teamMembers = {
         'member1': {
             name: 'Austin Koola',
-            description: '',
-            image: 'wdawda', // Add image path
+            description: 'Hi, i’m Austin, a passionate problem-solver with a deep interest in utilizing technology to shape the future, and solve real-world problems. Im currently studying Software Engineering at the University of Ottawa, and have the goal of delving into the field of artificial intelligence and robotics in the near future.',
+            image: './Images/Austin.jpg', // Add image path
             linkedin: 'https://www.linkedin.com/in/austinkoola/',
             github: 'https://github.com/moonieweme',
         },
         'member2': {
             name: 'Ben Rainer',
             description: 'Ben Rainer is a software engineering student and web developer. He is responsible for some of the front-end development and quality assurance in CampusNav. He enjoys contributing to programming projects that solve problems and improve his community, and he is excited to be a part of the CampusNav team. In his spare time, he enjoys playing jazz trumpet.',
-            image: './Images/ben.jpg', 
+            image: './Images/Ben.jpg', 
             linkedin: 'https://www.linkedin.com/in/benrainer/',
             github: 'https://github.com/ben-rainer',
         },
