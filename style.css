@@ -1,4 +1,4 @@
-:root {
+9:root {
     --background-color: #ffffff;
 
     /* Base site colours, from style_guidelines.txt */
@@ -56,11 +56,14 @@ header {
     display: flex; align-items: center; gap: 12px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 .logo {
-    width: 42px; height: 42px; border-radius: 10px;
-    background: linear-gradient(135deg, var(--accent), #8b5cf6);
-    display: grid; place-items: center; color: #00131a; font-weight: 800;
-    box-shadow: var(--shadow);
+     display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .brand h1 {
