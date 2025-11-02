@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'member1': {
             name: 'Austin Koola',
             description: 'Hi, i’m Austin, a passionate problem-solver with a deep interest in utilizing technology to shape the future, and solve real-world problems. Im currently studying Software Engineering at the University of Ottawa, and have the goal of delving into the field of artificial intelligence and robotics in the near future.',
-            image: './Images/Austin.jpg', // Add image path
+            image: './Images/Austin.jpg',
             linkedin: 'https://www.linkedin.com/in/austinkoola/',
             github: 'https://github.com/moonieweme',
         },
@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         'member4': {
             name: 'Fatima Kanj',
-            description: '',
-            image: 'wdawda', // Add image path
+            description: 'Fatima Kanj is a software engineering student and creative web designer at the University of Ottawa. She designed and coded the CampusNav logo, icons, and pricing page, combining visual appeal with user-friendly functionality. Passionate about design and innovation, she enjoys working with her team to make ideas come to life.',
+            image: './Images/Fatima.jpg', 
             linkedin: 'https://www.linkedin.com/in/fatima-k-7798a2246/',
             github: 'https://github.com/fkanj70',
         },
