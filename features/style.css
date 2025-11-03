@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.card-icon {
+  width: 50%;
+}
+
 .card-front,
 .card-back {
   background-color: var(--card-background);

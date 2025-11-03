@@ -10,3 +10,9 @@ p {
     font-size: 25pt;
     color: salmon;
 }
+
+button {
+    padding:5px;
+    outline: none;
+    font-size: 1.2em;
+}
