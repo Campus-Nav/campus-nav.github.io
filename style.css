@@ -30,17 +30,34 @@
     box-sizing: border-box;
 }
 
+body {
+  background-color: #f1f5f9; /* light cool gray-blue */
+  color: #111827; /* dark text for readability */
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav a:hover {
+  color: #1d4ed8; /* your CampusNav blue */
+}
+
+
+header {
+  background-color: #e2e8f0; /* slightly darker gray-blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  border-bottom: 1px solid #cbd5e1; /* optional: subtle bottom line */
+}
+
 html, body {
     margin: 0;
     min-height: 100%;
 }
 
-body {
-    margin: 0;
-    background: radial-gradient(1200px 600px at 20% 0%, #0a1224 0%, #070a13 60%, #05070d 100%), var(--bg);
-    color: var(--text);
-    font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-}
+
 
 header {
     max-width: 1100px;
