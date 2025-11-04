@@ -93,3 +93,58 @@ ul.features li {
     .card { padding: 18px; }
     .card.free, .card.explorer, .card.insider, .card.premium { grid-column: span 12; }
 }
+
+
+/* === Plan Icons Styling === */
+.plan-icon {
+  font-size: 1.6rem;
+  color: var(--accent);
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.card.premium .plan-icon {
+  color: var(--gold);
+}
+
+
+/* === Equal sizing for pricing cards === */
+.card {
+  min-height: 420px;               /* same height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Premium card slightly larger */
+.card.premium {
+  min-height: 460px;
+  transform: scale(1.05);
+}
+
+/* === Premium title in gold === */
+.card.premium header .plan {
+  color: var(--gold);
+}
+
+.card.premium header .plan {
+  color: var(--gold);
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.6);
+}
+
+/* === Feature icon styling === */
+.feature-icon {
+  color: var(--accent);
+  margin-right: 8px;
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+.card.premium .feature-icon {
+  color: var(--gold);
+}
+.feature-icon:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+  transition: 0.2s ease;
+}
