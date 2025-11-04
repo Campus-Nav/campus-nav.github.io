@@ -1,12 +1,49 @@
 /* hello world */
 h1.home-title {
     font-size: 50pt;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    align-self: center;
+    margin-top: 10%;
+    z-index: 5;
     color: rgb(0, 179, 211);
     
 }
 
 p {
-    margin-top: 25%;
+    margin-top: 70%;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    align-self: center;
     font-size: 25pt;
     color: salmon;
+    z-index: 5;
+}
+
+*{box-sizing: border-box}
+.slideshow-container{
+    max-height: 900px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    bottom: 0;
+    z-index: 0;
+    filter: blur(1px);
+    mask-image: linear-gradient(to top, rgb(255, 255, 255) 90%, transparent 100%) , linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 80%, transparent 100%);
+    mask-composite: intersect;
+    transition: 0.6s ease;
+}
+
+button {
+    padding:5px;
+    outline: none;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    align-self: center;
+    font-size: 1.2em;
+    margin-top: 90%;
+    z-index: 5;
 }

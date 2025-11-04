@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         'member3': {
             name: 'Daniel Lieu',
-            description: '',
+            description: 'Daniel Lieu is a software engineering student at the University of Ottawa. Daniel is responsible for the home page as well as assisting in the design decision process. He likes to work with vocal synthesis software and hopes to help develop one in the future. ',
             image: 'wadawd', // Add image path
             linkedin: 'https://www.linkedin.com/in/daniel-lieu-9514a4388/',
             github: 'https://github.com/teikoku-dansei',
