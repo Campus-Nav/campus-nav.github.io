@@ -7,18 +7,19 @@ h1.home-title {
     align-self: center;
     margin-top: 10%;
     z-index: 5;
-    color: rgb(0, 179, 211);
+    color: #0267ff;
+    text-shadow: 5px 5px 8px #001778;
     
 }
 
 p {
-    margin-top: 70%;
+    margin-top: 60%;
     width: 100%;
     left: 0px;
     position: absolute;
     align-self: center;
     font-size: 25pt;
-    color: salmon;
+    color: #0267ff;
     z-index: 5;
 }
 
@@ -27,11 +28,11 @@ p {
     max-height: 900px;
     overflow: hidden;
     position: relative;
-    margin: auto;
+    margin-bottom: 0%;
     bottom: 0;
     z-index: 0;
     filter: blur(1px);
-    mask-image: linear-gradient(to top, rgb(255, 255, 255) 90%, transparent 100%) , linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 80%, transparent 100%);
+    mask-image: linear-gradient(to top, rgb(255, 255, 255) 90%, transparent 100%) , linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 5%, transparent 102%);
     mask-composite: intersect;
     transition: 0.6s ease;
 }
@@ -39,11 +40,24 @@ p {
 button {
     padding:5px;
     outline: none;
-    width: 100%;
-    left: 0px;
+    width: 15%;
+    height: 7%;
+    left: 43%;
     position: absolute;
     align-self: center;
+    color: #0267ff;
+    background-color: #001778;
     font-size: 1.2em;
-    margin-top: 90%;
+    margin-top: 65%;
     z-index: 5;
+}
+
+footer {
+    position: absolute;
+    align-self: center;
+    color:black;
+    left:45%;
+    width: 10%;
+    margin-bottom: 0%;
+    z-index: 6;
 }
