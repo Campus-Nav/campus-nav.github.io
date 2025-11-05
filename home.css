@@ -7,9 +7,8 @@ h1.home-title {
     align-self: center;
     margin-top: 10%;
     z-index: 5;
-    color: #0267ff;
-    text-shadow: 5px 5px 8px #001778;
-    
+    color: var(--signature-blue);
+    text-shadow: 5px 5px 8px #374689;
 }
 
 p {
@@ -19,7 +18,7 @@ p {
     position: absolute;
     align-self: center;
     font-size: 25pt;
-    color: #0267ff;
+    color: var(--signature-blue);
     z-index: 5;
 }
 
@@ -42,22 +41,10 @@ button {
     outline: none;
     width: 15%;
     height: 7%;
-    left: 43%;
+    left: 50%;
+    transform: translate(-50%, 0%);
     position: absolute;
     align-self: center;
-    color: #0267ff;
-    background-color: #001778;
-    font-size: 1.2em;
     margin-top: 65%;
     z-index: 5;
-}
-
-footer {
-    position: absolute;
-    align-self: center;
-    color:black;
-    left:45%;
-    width: 10%;
-    margin-bottom: 0%;
-    z-index: 6;
 }

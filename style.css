@@ -1,6 +1,4 @@
 :root {
-    --background-color: #ffffff;
-
     /* Base site colours, from style_guidelines.txt */
     --color-1: #001778;
     --color-2: #0267ff;
@@ -8,48 +6,62 @@
     --color-4: #eaeeff;
     --color-5: #000000;
 
-    --bg: #0b0f1a;
+    --signature-white: #f1f5f9;
+    --signature-blue: #1d4ed8;
+    --signature-black: #111827;
+    --signature-gray: #94a3b8;
+    --signature-silver: #bfd2ec;
+    --signature-gold: #fbbf24;
+
+    --bg: var(--signature-white); /* light cool gray-blue */
+    --foreground: var(--signature-black); /* dark text for readability */
+
+    --link: var(--signature-blue);
+
     --panel: #111827;
     --panel-2: #0f172a;
     --text: #e5e7eb;
-    --muted: #94a3b8;
+    --muted: var(--signature-gray);
     --accent: #38bdf8;
-    --gold: #fbbf24;
+    --gold: RED;
     --green: #22c55e;
     --rose: #fb7185;
     --card-radius: 1.25rem;
     --shadow: 0 10px 30px rgba(0, 0, 0, .45);
     --outline: 1px solid rgba(255, 255, 255, .08);
 
-    --card-background: var(--panel-2);
-    --navigation-background: var(--color-3);
-    --navigation-hover-background: var(--color-4)
+    --card-background: var(--signature-gray);
+    --navigation-background: #e2e8f0;
+    --navigation-hover-background: var(--color-4);
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
 }
 
 body {
-  background-color: #f1f5f9; /* light cool gray-blue */
-  color: #111827; /* dark text for readability */
+  background-color: var(--bg); 
+  color: var(--foreground); 
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 nav a:hover {
-  color: #1d4ed8; /* your CampusNav blue */
+  color: var(--link); /* your CampusNav blue */
 }
 
-
 header {
-  background-color: #e2e8f0; /* slightly darker gray-blue */
+  background-color: var(--navigation-background); /* slightly darker gray-blue */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 40px;
-  border-bottom: 1px solid #cbd5e1; /* optional: subtle bottom line */
+  border-bottom: 1px solid #cbd5e1;
 }
 
 html, body {
@@ -57,20 +69,18 @@ html, body {
     min-height: 100%;
 }
 
-
-
 header {
-    max-width: 1100px;
-    margin: 48px auto 24px;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+  max-width: 1100px;
+  margin: 48px auto 24px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .brand {
-    display: flex; align-items: center; gap: 12px;
+  display: flex; align-items: center; gap: 12px;
 }
 
 /*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');*/
@@ -84,25 +94,42 @@ header {
   user-select: none;
 
   cursor: pointer;
-  background-color: #ffffff1f;
+  background-color: #ffffff1f; /* transparent gray background */
   padding: 1px 13px;
   border-radius: 40px;
 }
 
 .brand h1 {
-    font-size: 1.25rem; margin: 0; letter-spacing: .2px;
+  font-size: 1.25rem; margin: 0; letter-spacing: .2px;
 }
 
 nav a {
-    color: var(--muted); text-decoration: none; font-weight: 600;
-    padding: 8px 12px; border-radius: 10px;
+  color: var(--muted); text-decoration: none; font-weight: 600;
+  padding: 8px 12px; border-radius: 10px;
 }
 
 footer {
-    max-width: 1100px;
-    padding: 24px 20px 60px;
-    margin: 0 auto;
-    color: var(--muted);
-    font-size: .9rem;
-    text-align: center;
+  max-width: 1100px;
+  padding: 24px 20px 60px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: .9rem;
+  text-align: center;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: var(--signature-white);
+  color: var(--signature-black);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+button:hover {
+    background-color: var(--signature-silver);
 }

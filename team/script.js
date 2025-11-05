@@ -36,8 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             linkedin: 'https://www.linkedin.com/in/najib-mauthoor-806410269/',
             github: 'https://github.com/Treforis',
         
-        },
-        
+        }
     };
 
     const overlay = document.getElementById('member-overlay');
@@ -63,8 +62,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 
                 // Update links
-                linkedinLink.href = memberData.linkedin;
-                githubLink.href = memberData.github;
+                linkedinLink.onclick = function(){
+                    window.open(memberData.linkedin)
+                };
+                githubLink.onclick = function(){
+                    window.open(memberData.github)
+                };
                 
 
                 // Show overlay
