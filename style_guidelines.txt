@@ -1,28 +1,35 @@
 Overall look and feel statement:
-  The website provides a modern up-and-going vibe with mild focus on an academic feel. This is accomplished with (insert colours) to give a genuine trustable feel while providing eye-popping contrast so that viewers are more likely to see our benefits. We use images that include modern archetecture and urban buildings with touches of greenery to give off an urban exploration vibe that appeals to both nature enthusiasts and brutalist fans.
+  The website provides a modern up-and-going vibe with mild focus on an academic feel. This is accomplished with our cool blue colour palette to give a genuine trustable feel while providing a contrast so that viewers are more likely to comfortably see our benefits. We use images that include modern archetecture and urban buildings with touches of greenery to give off an exploration vibe that appeals to both nature enthusiasts and brutalist fans.
 
 Colors:
-  For Campus Nav, our choice of colors represent effortlessness, ease and simplicity. The pallete is inspired by calming tones of blue with simple shades of black and light gray. 
+  For Campus Nav, our choice of colors represent effortlessness, ease and simplicity. The pallete is inspired by calming tones of blue with simple shades of light gray. We have some gold thrown in for our premium pricing. 
+
+  We have decided to use a light theme for the website to emulate the feeling of a traditional hand-drawn map.
 
   Color Swatch:
-  #001778
-  #0267ff
-  #839bff
-  #eaeeff
-  #000000
+  #f1f5f9
+  #1d4ed8
+  #111827
+  #94a3b8
+  #bfd2ec
+  #fbbf24
 
 Layout:
+  Each page of the website includes a header and footer, with a background showing a repeating compass icon. The background scales with the user's screen, repeating infintely.
 
 Icons:
-  The website incorporates both custom-made designs and designs taken from the material design icons library by Pictogrammers.
+  The website incorporates both custom-made designs and designs taken from the Material Design Icons library by Pictogrammers.
     material design icons: https://pictogrammers.com/library/mdi
 
 Typography:
+  We are using Inter from Google Fonts across our site for a polished, cartographic feel.
+  https://fonts.google.com/specimen/Inter
 
 Links:
+  Our links are identified with a simple underline and a change in cursor upon hover.
 
 Buttons:
     We use simple and clean rectangular buttons with rounded corners because we do not want the website to be overstimulating with over-designed shaders and other obfuscations. 
 
 Accessibility:
-
+  Our images have alternate text and the site is screen reader compatible to make it accessible for people with vision disabilities [*test this!]

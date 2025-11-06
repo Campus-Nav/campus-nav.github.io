@@ -3,16 +3,12 @@
   background-color: rgba(120, 120, 120, 0.1);
 }*/
 
-.page-title {
-  display: flex;
-  justify-content: center;
-}
-
 .deck {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   gap: 50px;
+  margin: 60px 0px;
 }
 
 .card {

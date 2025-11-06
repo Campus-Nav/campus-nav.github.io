@@ -1,11 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
     /* Base site colours, from style_guidelines.txt */
-    --color-1: #001778;
-    --color-2: #0267ff;
-    --color-3: #839bff;
-    --color-4: #eaeeff;
-    --color-5: #000000;
-
     --signature-white: #f1f5f9;
     --signature-blue: #1d4ed8;
     --signature-black: #111827;
@@ -14,41 +10,41 @@
     --signature-gold: #fbbf24;
 
     --bg: var(--signature-white); /* light cool gray-blue */
-    --foreground: var(--signature-black); /* dark text for readability */
+    --text: var(--signature-black); /* dark text for readability */
 
     --link: var(--signature-blue);
 
-    --panel: #111827;
-    --panel-2: #0f172a;
-    --text: #e5e7eb;
     --muted: var(--signature-gray);
-    --accent: #38bdf8;
-    --gold: RED;
-    --green: #22c55e;
-    --rose: #fb7185;
+
     --card-radius: 1.25rem;
     --shadow: 0 10px 30px rgba(0, 0, 0, .45);
     --outline: 1px solid rgba(255, 255, 255, .08);
 
     --card-background: var(--signature-gray);
     --navigation-background: #e2e8f0;
-    --navigation-hover-background: var(--color-4);
 }
 
 * {
   box-sizing: border-box;
-}
-
-h1 {
-  text-align: center;
+  font-family: Inter;
 }
 
 body {
-  background-color: var(--bg); 
-  color: var(--foreground); 
+  /*background-color: var(--bg); */
+  color: var(--text); 
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
+
+  background-image: url(/CampusNavBackground.jpg), linear-gradient(45deg, #fffffff5, #ffffffba);
+  background-size: 4.9%;
+  background-position: -50% -50%;
+  background-blend-mode: overlay;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
 }
 
 nav a:hover {
@@ -83,7 +79,6 @@ header {
   display: flex; align-items: center; gap: 12px;
 }
 
-/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');*/
 .logo {
   display: flex;
   align-items: center;

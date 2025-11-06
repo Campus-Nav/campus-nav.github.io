@@ -33,6 +33,7 @@ p {
     filter: blur(1px);
     mask-image: linear-gradient(to top, rgb(255, 255, 255) 90%, transparent 100%) , linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 5%, transparent 102%);
     mask-composite: intersect;
+        filter: brightness(0.8);
 }
 
 button {
@@ -46,4 +47,8 @@ button {
     align-self: center;
     margin-top: 65%;
     z-index: 5;
+}
+
+body {
+    background: var(--bg)
 }

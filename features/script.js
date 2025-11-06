@@ -2,13 +2,20 @@
 let cards = Array.from(document.getElementsByClassName("card"))
 
 cards.forEach((card) => {
-    card.onmouseover = function() {
-        card.classList.toggle("unflip", false)
-        card.classList.toggle("flip", true)
-    };
+    card.setAttribute("tabindex", '0')
 
-    card.onmouseleave = function() {
+    function unflip(){
         card.classList.toggle("flip", false)
         card.classList.toggle("unflip", true)
     }
+
+    function flip() {
+        card.classList.toggle("unflip", false)
+        card.classList.toggle("flip", true)
+    }
+
+    card.onmouseover = flip;
+    card.onmouseleave = unflip;
+    card.onfocus = flip;
+    card.onblur = unflip;
 })
